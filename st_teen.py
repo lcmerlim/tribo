@@ -94,7 +94,7 @@ def redirecionar_por_cor(cor):
         'Laranja': 'https://exemplo.com/laranja',
         'Vermelho': 'https://exemplo.com/vermelho',
         'Verde': 'https://exemplo.com/verde',
-        'Roxo': 'https://operationshub.my.canva.site/roxo'
+        'Roxo': 'https://operationspartner.com.br'
     }
     
     if cor in urls:
