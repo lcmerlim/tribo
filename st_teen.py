@@ -23,7 +23,7 @@ headers = {
 }
 
 # Opções de cores disponíveis
-cores = ['Laranja', 'Vermelho', 'Verde', 'Azul']
+cores = ['Laranja', 'Vermelho', 'Verde', 'Roxo']
 
 # Função para buscar os registros do Airtable
 def get_nomes_sem_cor():
@@ -94,7 +94,7 @@ def redirecionar_por_cor(cor):
         'Laranja': 'https://exemplo.com/laranja',
         'Vermelho': 'https://exemplo.com/vermelho',
         'Verde': 'https://exemplo.com/verde',
-        'Azul': 'https://exemplo.com/azul'
+        'Roxo': 'https://exemplo.com/azul'
     }
     
     if cor in urls:
