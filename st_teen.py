@@ -98,9 +98,11 @@ def redirecionar_por_cor(cor):
     
     if cor in urls:
         st.write(f"Você será redirecionado para: {urls[cor]}")
-        js = f"window.location.href = '{urls[cor]}';"
-        st.components.v1.html(f"<script>{js}</script>")
-
+        st.components.v1.html(f"""
+            <script type="text/javascript">
+                window.location.href = "{urls[cor]}";
+            </script>
+        """, height=0)
 
 
 # Busca os nomes onde a coluna "Cor" está vazia
