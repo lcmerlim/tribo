@@ -98,7 +98,7 @@ def redirecionar_por_cor(cor):
     
     if cor in urls:
         st.write(f"Você será redirecionado para: {urls[cor]}")
-        st.markdown(f"<meta http-equiv='refresh' content='0; url={urls[cor]}'>", unsafe_allow_html=True)
+        st.markdown(f"<meta http-equiv='refresh' content='3; url={urls[cor]}'>", unsafe_allow_html=True)
 
 # Busca os nomes onde a coluna "Cor" está vazia
 records, nomes = get_nomes_sem_cor()
