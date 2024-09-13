@@ -91,9 +91,9 @@ def atualizar_cor(record_id, nova_cor):
 # Função para redirecionar o usuário dependendo da cor
 def redirecionar_por_cor(cor):
     urls = {
-        'Laranja': 'https://exemplo.com/laranja',
-        'Vermelho': 'https://exemplo.com/vermelho',
-        'Verde': 'https://exemplo.com/verde',
+        'Laranja': 'https://operationspartner.com.br',
+        'Vermelho': 'https://operationspartner.com.br',
+        'Verde': 'https://operationspartner.com.br',
         'Roxo': 'https://operationspartner.com.br'
     }
     
