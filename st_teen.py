@@ -91,10 +91,10 @@ def atualizar_cor(record_id, nova_cor):
 # Função para redirecionar o usuário dependendo da cor
 def redirecionar_por_cor(cor):
     urls = {
-        'Laranja': 'https://operationspartner.com.br',
-        'Vermelho': 'https://operationspartner.com.br',
-        'Verde': 'https://operationspartner.com.br',
-        'Roxo': 'https://operationspartner.com.br'
+        'Laranja': 'https://operationshub.my.canva.site/roxo',
+        'Vermelho': 'https://operationshub.my.canva.site/roxo',
+        'Verde': 'https://operationshub.my.canva.site/roxo',
+        'Roxo': 'https://operationshub.my.canva.site/roxo'
     }
     
     if cor in urls:
