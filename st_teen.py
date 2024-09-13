@@ -90,10 +90,10 @@ def atualizar_cor(record_id, nova_cor):
 # Função para redirecionar o usuário dependendo da cor
 def redirecionar_por_cor(cor):
     urls = {
-        'Laranja': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/view?usp=sharing',
-        'Vermelho': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/view?usp=sharing',
-        'Verde': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/view?usp=sharing',
-        'Roxo': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/view?usp=sharing'
+        'Laranja': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/preview',
+        'Vermelho': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/preview',
+        'Verde': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/preview',
+        'Roxo': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/preview'
     }
     
     if cor in urls:
