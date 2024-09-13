@@ -98,11 +98,8 @@ def redirecionar_por_cor(cor):
     
     if cor in urls:
         st.write(f"Você será redirecionado para: {urls[cor]}")
-        st.markdown(f"""
-        <script type="text/javascript">
-            window.location.href = "{urls[cor]}";
-        </script>
-        """, unsafe_allow_html=True)
+        js = f"window.location.href = '{urls[cor]}';"
+        st.components.v1.html(f"<script>{js}</script>")
 
 
 
