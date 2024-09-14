@@ -83,7 +83,7 @@ def atualizar_cor(record_id, nova_cor):
     response = requests.patch(f'{url}/{record_id}', headers=headers, json=data)
     
     if response.status_code == 200:
-        st.success(f'A cor foi atualizada para {nova_cor} com sucesso!')
+        st.success(f'A cor {nova_cor} foi selecionada com sucesso!')
     else:
         st.error("Erro ao atualizar a cor no Airtable")
 
@@ -97,7 +97,6 @@ def redirecionar_por_cor(cor):
     }
     
     if cor in urls:
-        st.write(f"Você será redirecionado para: {urls[cor]}")
         st.markdown(f"<meta http-equiv='refresh' content='0; url={urls[cor]}'>", unsafe_allow_html=True)
 
 
