@@ -105,7 +105,7 @@ def redirecionar_por_cor(cor):
 records, nomes = get_nomes_sem_cor()
 
 # Exibe o formulário
-st.title('Atualizar Cor no Airtable')
+st.title('Descubra a COR da sua TRIBO')
 
 with st.form(key='formulario_cor'):
     nome_selecionado = st.selectbox('Selecione o nome', nomes)
