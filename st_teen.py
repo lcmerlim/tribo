@@ -108,6 +108,34 @@ st.title('Descubra a COR da sua TRIBO')
 
 with st.form(key='formulario_cor'):
     nome_selecionado = st.selectbox('Selecione o nome', nomes)
+    
+    # Pergunta 1
+    pergunta_1 = st.radio(
+        "Quando você enfrenta um desafio, como você costuma reagir?",
+        ('a) Eu busco força e não desisto facilmente.',
+         'b) Tento encontrar soluções criativas e relevantes para o problema.',
+         'c) Fico fiel ao meu estilo e valores, sem me deixar influenciar.',
+         'd) Procuro envolver outras pessoas para superarmos juntos.')
+    )
+    
+    # Pergunta 2
+    pergunta_2 = st.radio(
+        "O que é mais importante para você em um grupo?",
+        ('a) Que todos estejam comprometidos e focados no objetivo.',
+         'b) Que sejamos impactantes e façamos a diferença.',
+         'c) Que cada um seja autêntico e verdadeiro consigo mesmo.',
+         'd) Que todos trabalhem em unidade e sintonia.')
+    )
+    
+    # Pergunta 3
+    pergunta_3 = st.radio(
+        "Como você gosta de passar seu tempo livre?",
+        ('a) Participando de atividades desafiadoras e estimulantes.',
+         'b) Fazendo algo que tenha impacto e seja importante para os outros.',
+         'c) Aproveitando para me expressar de forma verdadeira e autêntica.',
+         'd) Estando com amigos e aproveitando momentos em grupo.')
+    )
+    
     enviar = st.form_submit_button('Enviar')
 
 # Ao submeter o formulário
