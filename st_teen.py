@@ -93,7 +93,7 @@ def redirecionar_por_cor(cor):
         'Laranja': 'https://drive.google.com/file/d/182jmtsY5r3UMbHuYN6WdQf1-RJfkRmzi/preview',
         'Vermelho': 'https://drive.google.com/file/d/1IP4gNs4_CRzQ02eifXbCHUCDAtEhPnMv/preview',
         'Verde': 'https://drive.google.com/file/d/1YT7TCpjm7aKSRrRHups8z23decQOVrxz/preview',
-        'Roxo': 'https://drive.google.com/file/d/1LtpvrQGPArmzIaWlb2A2nXX29o67vfie/preview'
+        'Roxo': 'https://drive.google.com/file/d/14QtF04Bt34u2yWjO_xFuLvso7N14A2TA/preview'
     }
     
     if cor in urls:
