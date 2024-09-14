@@ -107,7 +107,7 @@ records, nomes = get_nomes_sem_cor()
 st.title('Descubra a COR da sua TRIBO')
 
 with st.form(key='formulario_cor'):
-    nome_selecionado = st.selectbox('Selecione o nome', nomes, index=None)
+    nome_selecionado = st.selectbox('Selecione o Seu Nome', nomes, index=None)
     
     # Pergunta 1
     pergunta_1 = st.radio(
